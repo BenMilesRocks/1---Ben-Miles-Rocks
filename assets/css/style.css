@@ -1,0 +1,36 @@
+/* ------------------------- Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Ultra&display=swap');
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+/* ------------------------- Background Colors */
+
+.bg-color-header,
+.bg-color-footer {
+    background-color: rgb(43, 0, 0);
+}
+
+.bg-color-div {
+    background-color: rgb(23, 23, 23);
+}
+
+/* ------------------------- Header */
+
+.main-logo h1{
+    font-family: "Ultra", sans-serif;
+    font-size: 75px;
+    color: #fafafa;
+}
+
+.nav-menu a,
+.main-logo {
+    text-decoration: none;
+}
+
+.nav-menu li a,
+.social-links li a i {
+    color: #c9c9c9;
+}
