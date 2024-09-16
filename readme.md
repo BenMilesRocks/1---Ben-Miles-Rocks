@@ -12,12 +12,67 @@ Thirdly there is also the need to drive new fans to Ben's existing social media 
 
 Finally, there is a strong drive to make this website easy to use on mobile devices. As a result the whole site will need to be responsive, resizing elements to best fit the screen they are being displayed on.
 
-## Wireframe
 
-[Homepage](https://wireframe.cc/pro/pp/0064f86ea789132)
-[Music](https://wireframe.cc/pro/pp/640033b08789235)
-[Contact](https://wireframe.cc/pro/pp/cc768144a789238)
+## User Experience
 
-## Technology
+### User Stories
 
-This website is built with HTML 5 and styled using CSS. I also used Bootstrap 5 framework to make use of its responsive elements, Google Fonts and Font Awesome icons for the Social Media links.
+**First Time Visitor Goals**
+**Returning Visitor Goals**
+**Frequent Visitor Goals**
+
+##Design
+
+### Color Scheme
+### Typography
+### Imagery
+### Wireframe
+
+**Homepage**
+![Homepage Wireframe - Desktop](/assets/wireframe/home/home-desktop.png)
+![Homepage Wireframe - Tablet](/assets/wireframe/home/home-tablet.png)
+![Homepage Wireframe - Mobile](/assets/wireframe/home/home-mobile.png)
+
+**Music Page**
+![Music Page Wireframe - Desktop](/assets/wireframe/music/music-desktop.png)
+![Music Page Wireframe - Tablet](/assets/wireframe/music/music-tablet.png)
+![Music Page Wireframe - Mobile](/assets/wireframe/music/music-mobile.png)
+
+**Contact Page**
+![Contact Page Wireframe - Desktop](/assets/wireframe/contact/contact-desktop.png)
+![Contact Page Wireframe - Mobile](/assets/wireframe/contact/contact-mobile.png)
+
+
+### Features
+### Accessibility
+
+## Technologies Used
+
+### Languages Used
+
+This website is built with HTML 5 and styled using CSS. 
+
+### Frameworks, Libraries & Programs Used
+
+I used Bootstrap 5 framework to make use of its responsive elements, Google Fonts and Font Awesome icons for the Social Media links.
+
+To edit my code I used Visual Studio, and I used Git for version control
+
+## Deployment and Local Development
+
+### Deployment
+### Local Development
+**How to fork**
+**How to clone**
+
+## Testing
+
+### Solved Bugs
+### Known Bugs
+
+## Credits
+
+### Code used
+### Content
+### Media
+### Acknowledgements

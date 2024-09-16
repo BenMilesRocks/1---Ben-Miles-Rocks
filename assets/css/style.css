@@ -37,9 +37,11 @@ body {
 
 /* ------------------------- Hero Image */
 
+/* needs rule for XL screens to make min height 900px */
+
 .hero-image {
     background-image: url(/assets/images/hero-image.png);
-    min-height: 550px;
+    min-height: 500px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
