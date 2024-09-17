@@ -52,8 +52,6 @@ body {
     color: red;
 }
 
-/* Why is there still a blue bar? Needs fixing! */
-
 /* ------------------------- Hero Image */
 
 /* needs rule for XL screens to make min height 900px */
@@ -90,5 +88,9 @@ body {
 /* ------------------------- Spotify Embedded Music */
 
 .music-container {
+    margin: 25px;
+}
+
+.contact-row {
     margin: 25px;
 }
