@@ -36,6 +36,10 @@ body {
     color: #c9c9c9;
 }
 
+.menu-active {
+    text-decoration: underline;
+}
+
 /* ------------------------- Body Text Rules */
 
 .section-title {
@@ -48,7 +52,9 @@ body {
     text-decoration: none;
 }
 
-.page-link:hover {
+.page-link:hover,
+.nav-menu li a:hover,
+.social-links li a i:hover {
     color: red;
 }
 
