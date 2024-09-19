@@ -72,6 +72,10 @@ body {
     margin-bottom: 25px;
 }
 
+.call-to-action-container {
+    padding-bottom: 25px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
 /* ------------------------- Videos */
 
 .index-video-container {
