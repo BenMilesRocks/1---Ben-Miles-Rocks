@@ -21,7 +21,7 @@ Finally, there is a strong drive to make this website easy to use on mobile devi
 **Returning Visitor Goals**
 **Frequent Visitor Goals**
 
-##Design
+## Design
 
 ### Color Scheme
 ### Typography
@@ -29,17 +29,30 @@ Finally, there is a strong drive to make this website easy to use on mobile devi
 ### Wireframe
 
 **Homepage**
+
+*Desktop*
 ![Homepage Wireframe - Desktop](/assets/wireframe/home/home-desktop.png)
+
+*Tablet*
 ![Homepage Wireframe - Tablet](/assets/wireframe/home/home-tablet.png)
+
+*Mobile*
 ![Homepage Wireframe - Mobile](/assets/wireframe/home/home-mobile.png)
 
 **Music Page**
+
+*Desktop*
 ![Music Page Wireframe - Desktop](/assets/wireframe/music/music-desktop.png)
-![Music Page Wireframe - Tablet](/assets/wireframe/music/music-tablet.png)
+
+*Mobile*
 ![Music Page Wireframe - Mobile](/assets/wireframe/music/music-mobile.png)
 
 **Contact Page**
+
+*Desktop*
 ![Contact Page Wireframe - Desktop](/assets/wireframe/contact/contact-desktop.png)
+
+*Mobile*
 ![Contact Page Wireframe - Mobile](/assets/wireframe/contact/contact-mobile.png)
 
 

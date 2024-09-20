@@ -40,10 +40,17 @@ body {
     text-decoration: underline;
 }
 
+/* ------------------------- Footer */
+
 .footer {
     min-height: 20px;
-    padding: 5px;
+    padding-top: 5px;
     margin-top: 40px;
+}
+
+.footer-text {
+    font-size: 0.75em;
+    color: #999999c6;
 }
 
 /* ------------------------- Body Text Rules */
