@@ -20,17 +20,18 @@ body {
 
 /* ------------------------- Header */
 
-.main-logo h1{
+.navbar-brand,
+.navbar-brand:hover {
     font-family: "Ultra", sans-serif;
-    font-size: 75px;
+    font-size: 4.5vw;
     color: #fafafa;
 }
 
-.nav-menu a,
-.main-logo {
+.nav-menu a {
     text-decoration: none;
 }
 
+.nav-item a,
 .nav-menu li a,
 .social-links li a i {
     color: #c9c9c9;
