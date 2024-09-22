@@ -23,7 +23,7 @@ body {
 .navbar-brand,
 .navbar-brand:hover {
     font-family: "Ultra", sans-serif;
-    font-size: 4.5vw;
+    font-size: 5vw;
     color: #fafafa;
 }
 
@@ -49,9 +49,9 @@ body {
     margin-top: 40px;
 }
 
-.footer-text {
-    font-size: 0.75em;
-    color: #999999c6;
+.social-links li {
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 /* ------------------------- Body Text Rules */
