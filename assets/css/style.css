@@ -127,3 +127,14 @@ body {
 .contact-row {
     margin: 25px;
 }
+
+/* ------------------------- Message Sent page */
+
+.thank-you-message {
+    padding-top: 25vh;
+    padding-bottom: 5vh;
+}
+
+.message-sent-button {
+    padding-bottom: 20px;
+}
