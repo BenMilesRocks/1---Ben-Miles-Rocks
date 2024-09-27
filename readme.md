@@ -1,8 +1,10 @@
 # Ben Miles Rocks
 
-This project is to create a website for blues musician Ben Miles.
+
 
 ## Project Goals
+
+This project is to create a website for blues musician Ben Miles.
 
 The main priority for this website is to make it easier for fans to purchase merchandise directly from the artist. They already have a [Big Cartel](https://benmilesrocks.bigcartel.com/products) store in place, so links to this should be prominent at multiple points in the website.
 
@@ -13,12 +15,44 @@ Thirdly there is also the need to drive new fans to Ben's existing social media 
 Finally, there is a strong drive to make this website easy to use on mobile devices. As a result the whole site will need to be responsive, resizing elements to best fit the screen they are being displayed on.
 
 
+## Contents
+
+* [User Experience](#user-experience)
+    - [User Stories](#user-stories)
+* [Design](#design)
+    - [Color Scheme](#color-scheme)
+    - [Typography](#typography)
+    - [Imagery](#imagery)
+    - [Wireframe](#wireframe#)
+* [Features](#features)
+* [Accessibility](#accessibility)
+* [Credits](#credits)
+* [Technologies Used](#technologies-used)
+    - [Languages Used](#languages-used)
+    - [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
+* [Deployment and Local Development](#deployment-and-local-development)
+    - [Deployment](#deployment)
+    - [Local Development](#local-development)
+* [Testing](#testing)
+    - [Solved Bugs](#solved-bugs)
+    - [Known Bugs](#known-bugs)
+* [Credits](#credits)
+    - [Code Used](#code-used)
+    - [Content](#content)
+    - [Media](#media)
+    - [Acknowledgements](#acknowledgements)
+
+
 ## User Experience
+
 
 ### User Stories
 
+
 **First Time Visitor Goals**
+
 **Returning Visitor Goals**
+
 **Frequent Visitor Goals**
 
 ## Design
