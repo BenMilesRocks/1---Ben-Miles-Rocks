@@ -6,6 +6,8 @@
 
 This project is to create a website for blues musician Ben Miles.
 
+[The deployed version of the site is available here](https://benmilesrocks.github.io/1---Ben-Miles-Rocks/)
+
 The main priority for this website is to make it easier for fans to purchase merchandise directly from the artist. They already have a [Big Cartel](https://benmilesrocks.bigcartel.com/products) store in place, so links to this should be prominent at multiple points in the website.
 
 A secondary goal is to act as a showcase for both new fans and people interested in booking Ben for live shows and Radio / TV appearances. This means embedding music and video into the page is a high priority, which is made easier by their previous work being readily available on YouTube and Spotify. 
