@@ -161,6 +161,8 @@ To edit my code I used Visual Studio, and I used Git for version control.
 
 ## Testing
 
+You can see my manual testing logs on [testing.md](/assets/documentation/testing.md)
+
 ### Solved Bugs
 ### Known Bugs
 
