@@ -80,7 +80,7 @@ body {
 /* ------------------------- Hero Image */
 
 .hero-image {
-    background-image: url(../images/hero-image.png);
+    background-image: url(../images/hero-image.webp);
     min-height: 500px;
     height: 35vw;
     background-position: center;

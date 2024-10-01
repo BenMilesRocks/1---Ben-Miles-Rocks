@@ -44,11 +44,10 @@ Finally, there is a strong drive to make this website easy to use on mobile devi
     - [Acknowledgements](#acknowledgements)
 
 
-## User Experience
+## User Experience (UX)
 
 
 ### User Stories
-
 
 **First Time Visitor Goals**
 
@@ -58,7 +57,6 @@ Finally, there is a strong drive to make this website easy to use on mobile devi
     - I want links to social media sites where I can see and hear more.
 * I want the site to be responsive to my device.
 * I want the site to be easy to navigate.
-
 
 **Returning Visitor Goals**
 
@@ -70,6 +68,7 @@ Finally, there is a strong drive to make this website easy to use on mobile devi
 
 * I want to keep up to date with live shows that are happening near me.
 * I want to purchase music and merchandise.
+
 
 ## Design
 
@@ -93,9 +92,15 @@ All fonts were sourced through [Google Fonts](https://fonts.google.com/) not onl
 
 I used the [Lato](https://fonts.google.com/specimen/Lato?query=lato) font for menu and body text, as this is a clear and simple san-serif font ideal for communicating information clearly.
 
+![Lato Font](/assets/documentation/fonts/lato.png)
+
 For the page Logo I used [Ultra](https://fonts.google.com/specimen/Ultra?query=ultra), which is a very bold serif font. This also is quite evocotive of old western movies which ties in nicely with the americana-influenced music that the page is showcasing, giving users a visual indication of the style of music that the artist plays.
 
+![Ultra Font](/assets/documentation/fonts/ultra.png)
+
 For the section headers I used [Diplomata SC](https://fonts.google.com/specimen/Diplomata+SC?query=Diplomata+SC), a bold serif font which is capitalised. Much like Ultra this is quite evocotive of old western movies, playing into the americana theme and giving the page a distinctive style that ties in with the music of the artist.
+
+![Diplomata SC Font](/assets/documentation/fonts/diplomata-sc.png)
 
 ### Imagery
 
@@ -105,35 +110,48 @@ The other source of imagery is the video thumbnails found on index.html and musi
 
 ### Wireframe
 
+Wireframes were created for Mobile, Tablet and Desktop using Wireframe.cc .
+
 **Homepage**
 
 *Desktop*
+
 ![Homepage Wireframe - Desktop](/assets/documentation/wireframe/home/home-desktop.png)
 
 *Tablet*
+
 ![Homepage Wireframe - Tablet](/assets/documentation/wireframe/home/home-tablet.png)
 
 *Mobile*
+
 ![Homepage Wireframe - Mobile](/assets/documentation/wireframe/home/home-mobile.png)
 
 **Music Page**
 
 *Desktop*
+
 ![Music Page Wireframe - Desktop](/assets/documentation/wireframe/music/music-desktop.png)
 
 *Mobile*
+
 ![Music Page Wireframe - Mobile](/assets/documentation/wireframe/music/music-mobile.png)
 
 **Contact Page**
 
 *Desktop*
+
 ![Contact Page Wireframe - Desktop](/assets/documentation/wireframe/contact/contact-desktop.png)
 
 *Mobile*
+
 ![Contact Page Wireframe - Mobile](/assets/documentation/wireframe/contact/contact-mobile.png)
 
+As you can see these wireframes have a navigation bar and social media links on the top and bottom of the site for Desktop and Tablet, which I changed during development to have the navigation at the top and the social media links in the footer. Not only was this clearer for the user to follow but it was more visually appealing as well.
 
 ### Features
+
+The website is comprised of a home page, music page, contact page and a message sent page.
+
 ### Accessibility
 
 ## Technologies Used
