@@ -76,7 +76,7 @@ Finally, there is a strong drive to make this website easy to use on mobile devi
 
 The color palette was chosen with colours picked from the Hero Image on index.htmtl. The intention was to create a visual style that was cohesive and tied the Hero Image with the rest of the site, giving it an aesthetic continuity.
 
-![Hero Image](/assets/images/hero-image.png)
+![Hero Image](/assets/images/hero-image.webp)
 
 
 ![Color Palette](/assets/documentation/color-palette.png)
