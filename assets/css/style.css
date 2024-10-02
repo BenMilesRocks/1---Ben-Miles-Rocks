@@ -90,6 +90,12 @@ body {
     margin-bottom: 25px;
 }
 
+@media (max-width: 768px) {
+    .hero-image {
+        background-image: url(../images/hero-image-alt.webp);
+    }
+}
+
 .call-to-action-container {
     background-color: rgba(0, 0, 0, 0);
 }
