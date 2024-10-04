@@ -101,11 +101,11 @@ body {
 }
 /* ------------------------- Videos */
 
-.index-video-container {
+.video-container {
     padding: 10px 12.5px 25px 12.5px;
 }
 
-.index-video {
+.video {
     width: 100%;
     height: 30vh;
 }
