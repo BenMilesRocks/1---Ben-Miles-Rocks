@@ -293,7 +293,7 @@ Please refer to [testing.md](/assets/documentation/testing.md) for my manual tes
 
 **Lighthouse Testing**
 
-Itested my site using Lighthouse in Google Developer Tools to inspect my site's performance.
+I tested my site using Lighthouse in Google Developer Tools to inspect my site's performance.
 
 **Index Page**
 
