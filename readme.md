@@ -148,6 +148,8 @@ Wireframes were created for Mobile, Tablet and Desktop using Wireframe.cc .
 
 As you can see these wireframes have a navigation bar and social media links on the top and bottom of the site for Desktop and Tablet, which I changed during development to have the navigation at the top and the social media links in the footer. Not only was this clearer for the user to follow but it was more visually appealing as well.
 
+I also added a drop-down menu for the navbar on Tablet, as this made the navigation menu easier to read on medium sized screens.
+
 ### Features
 
 The website is comprised of a home page, music page, contact page and a message sent page.
@@ -200,6 +202,16 @@ The contact form is fully functional, and will email a message directly to the a
 Once a message has been successfully sent, the form redirects them to a seperate landing page where they can go to another part of the site.
 
 ![Message Sent Page](/assets/documentation/pages/message-sent.png)
+
+**Future Implementations**
+
+In future implementations I would like to:
+
+1. Add a portal for the site owner to add and remove live dates from the Homepage, allowing the site owner to keep this section updated without the need for a web developer.
+2. Add a functioning Store page to the site, removing the need for users to purchase merchandise through the Big Cartel store and keeping the styling of the website for consistent user experience.
+3. Create my own API for the contact page rather than relying on Web3Forms for this functionality.
+
+These features fell outside the scope of this current project, but I do plan on revisiting this at a later date to add these features.
 
 ### Accessibility
 
