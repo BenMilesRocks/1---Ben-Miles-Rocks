@@ -168,25 +168,73 @@ I used [Bootstrap 5](https://getbootstrap.com/) framework to make use of its res
 
 [Google Fonts](https://fonts.google.com/) and [Font Awesome](https://fontawesome.com/) icons for the Social Media links. 
 
+[Favicon.io](https://favicon.io/) used to create the site's Favicon.
+
 To edit my code I used Visual Studio, and I used Git for version control.
 
 ## Deployment and Local Development
 
 ### Deployment
+
+The site is deployed using GitHub Pages - [Ben Miles Rocks](https://benmilesrocks.github.io/1---Ben-Miles-Rocks/)
+
+To Deploy the site using GitHub Pages:
+
+1. Login (or signup) to Github.
+2. Go to the repository for this project, [BenMilesRocks/1---Ben-Miles-Rocks](https://github.com/BenMilesRocks/1---Ben-Miles-Rocks).
+3. Click the settings button.
+4. Select pages in the left hand navigation menu.
+5. From the source dropdown select main branch and press save.
+6. The site has now been deployed, please note that this process may take a few minutes before the site goes live.
+
 ### Local Development
+
 **How to fork**
+
+To fork the repository:
+
+1. Log in (or sign up) to Github.
+2. Go to the repository for this project, [BenMilesRocks/1---Ben-Miles-Rocks](https://github.com/BenMilesRocks/1---Ben-Miles-Rocks).
+3. Click the Fork button in the top right corner.
+
 **How to clone**
+
+To clone the repository:
+
+1. Log in (or sign up) to GitHub.
+2. Go to the repository for this project, [BenMilesRocks/1---Ben-Miles-Rocks](https://github.com/BenMilesRocks/1---Ben-Miles-Rocks).
+3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
+5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
 
 ## Testing
 
-You can see my manual testing logs on [testing.md](/assets/documentation/testing.md)
+Please refer to [testing.md](/assets/documentation/testing.md) for my manual testing logs.
 
 ### Solved Bugs
+
+| **No.** | **Bug** | **How I Solved The Issue** |
+|:--------|:-------:|:--------------------------:|
+| 1 | Header was not reaching the full width of the screen on index.html and music.html | Removed gutters on Hero Image and Video containers |
+| 2 | Contact form accepting whitespace validation | Added ' pattern=".*\S+.*" ' to name input field, preventing whitespace validation |
+
 ### Known Bugs
+
+Whilst I was able to resolve the issue of whitespace validation on the Name field of the contact form, there is no way to apply this to the <textarea> element using HTML. As a result the form will still accept whitespace as a message. 
 
 ## Credits
 
 ### Code used
+
+- I used code from [This post on Stack Overflow](https://stackoverflow.com/questions/13766015/is-it-possible-to-configure-a-required-field-to-ignore-white-space) to help resolve the issue of the contact form accepting whitespace validation.
+
+- I used code from [This YouTube Video](https://www.youtube.com/watch?v=K8YrX15e31s) to prevent "Related Videos" coming up when videos are paused, improving user experience.
+
+For site optimization I took a number of best practices from [web.dev](https://web.dev/), including
+
+- This post about [Third Party Embedds](https://web.dev/articles/embed-best-practices)
+
+- This post about [LCP](https://web.dev/articles/optimize-lcp)
 
 ### Media
 
