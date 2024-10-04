@@ -251,3 +251,11 @@ Lawman written by Ben Miles, video (C) Ben Miles 2014. Video shot and edited by 
 The album Great Unknown written by Ben Miles (except I Just Want to Make Love to You, written by Willie Dixon), (C) Ben Miles 2017. Recorded at [Electric Bear Studios](https://electricbearstudios.co.uk/book-now/) by Phil Wilbraham.
 
 ### Acknowledgements
+
+I would like to acknowledge the following people
+
+- Jubril Akolade - my Code Institute mentor
+
+- Mia Edris for helping with the Media sources
+
+- The Code Institute Slack channel Peer Code Review - thank you to everyone who tested the site and offered feedback
