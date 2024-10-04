@@ -291,6 +291,35 @@ To clone the repository:
 
 Please refer to [testing.md](/assets/documentation/testing.md) for my manual testing logs.
 
+### Code Validation
+
+I used [W3C's HTML validator](https://validator.w3.org/) to check my code, and there were a few results which I did not address intentionally:
+
+1. Lack of section headings on index.html and message-sent.html
+
+![index warning](/assets/documentation/testing/index-warning.png)
+
+![message-sent warning](/assets/documentation/testing/message-sent-warning.png)
+
+Whilst other sections on the site had headings attached to make navigation clear, it did not make sense for the Hero Image or the acknowledgement message to have such headings. Keeping the section tags for these areas made semantic sense as well as kept the code easy to follow, so I decided not to alter this code.
+
+2. Error for using href attributes on button elements.
+
+![music error 1](/assets/documentation/testing/music-err-1.png)
+
+![music error 2](/assets/documentation/testing/music-err-2.png)
+
+This code is part of the Bootstrap library, which alters how button elements work and allows the href attribute.
+
+3. Width=100% on iframe element
+
+![music error 3](/assets/documentation/testing/music-err-3.png)
+
+This code is part of the Spotify widget, adding a responsive element to the widget's size. The code works correctly, and altering this would give the widget a fixed size (which goes against the responsive design of the rest of the site.)
+
+
+
+
 ### Solved Bugs
 
 | **No.** | **Bug** | **How I Solved The Issue** |
