@@ -317,7 +317,33 @@ This code is part of the Bootstrap library, which alters how button elements wor
 
 This code is part of the Spotify widget, adding a responsive element to the widget's size. The code works correctly, and altering this would give the widget a fixed size (which goes against the responsive design of the rest of the site.)
 
+### Lighthouse Testing
 
+I also tested my site using Lighthouse in Google Developer Tools to inspect my site's performance.
+
+**Index Page**
+
+![Index Page Lighthouse](/assets/documentation/testing/index-lighthouse.png)
+
+The best practices issues are being caused by Third Party Cookies from Google Fonts. The only resolution I could find for this would be hosting the fonts locally, but this could cause slow loading times for the site. As Google phases out the use of cookies on its site this is likely to be resolved, and so I decided not to take action at this stage.
+
+![Index Page Lighthouse issues](/assets/documentation/testing/index-lighthouse-issues.png)
+
+**Music Page**
+
+![Music Page Lighthouse](/assets/documentation/testing/music-lighthouse.png)
+
+The best practices issues are being caused by Third Party Cookies from Spotify. I was unable to find a resolution for this without removing the Spotify widget entirely. Given its utility I decided that this would not be suitable, as losing this feature would be a significant detriment to the site.
+
+![Music Page Lighthouse issues](/assets/documentation/testing/music-lighthouse-issues.png)
+
+**Contact Page**
+
+![Contact Page Lighthouse](/assets/documentation/testing/contact-lighthouse.png)
+
+**Message Sent Page**
+
+![Message Sent Page Lighthouse](/assets/documentation/testing/message-sent-lighthouse.png)
 
 
 ### Solved Bugs
@@ -344,6 +370,8 @@ For site optimization I took a number of best practices from [web.dev](https://w
 - This post about [Third Party Embedds](https://web.dev/articles/embed-best-practices)
 
 - This post about [LCP](https://web.dev/articles/optimize-lcp)
+
+I took advice from [This Cookie Script article](https://cookie-script.com/blog/how-to-add-youtube-videos-without-cookies) to remove cookies from embedded YouTube videos.
 
 ### Media
 
