@@ -289,7 +289,7 @@ To clone the repository:
 
 ## Testing
 
-Please refer to [testing.md](/assets/documentation/testing.md) for my manual testing logs.
+Please refer to [testing.md](/testing.md) for my manual testing logs.
 
 **Lighthouse Testing**
 
