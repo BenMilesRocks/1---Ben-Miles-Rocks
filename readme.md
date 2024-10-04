@@ -152,7 +152,75 @@ As you can see these wireframes have a navigation bar and social media links on 
 
 The website is comprised of a home page, music page, contact page and a message sent page.
 
+All the pages are responsive and have
+
+- a favicon in the browser tab
+
+![Favicon](/assets/documentation/pages/favicon.png)
+
+- a navigation bar and a logo, with the logo linking back to the home page
+
+![Navbar](/assets/documentation/pages/navbar.png)
+
+- a footer with social media links
+
+![Footer](/assets/documentation/pages/footer.png)
+
+**Home Page**
+
+The Home Page displays the Hero Image of the artist and a call to action button linking to the artist's Big Cartel store.
+
+In line with the brief from the client, this site uses minimal text to convey its message. The embedded YouTube videos make sure the artist's music is front and center, ensuring first time visitors are able to easily access music and hear more from the artist.
+
+![Home Page](/assets/documentation/pages/home-1.png)
+
+The site also displays a list of live dates, and links to where the user can purchase tickets. The [Live Nation Homepage](https://www.livenation.co.uk/) was used to test this facility, but in a full deployment this would link to tickets for the show advertised.
+
+![Home Page](/assets/documentation/pages/home-2.png)
+
+
+**Music Page**
+
+The music page has more videos from the artist, which are also embedded from YouTube:
+
+![Music Page](/assets/documentation/pages/music-1.png)
+
+and also has a widget from Spotify to allow the user to listen to their full album:
+
+![Music Page](/assets/documentation/pages/music-2.png)
+
+As promoting the artist's social media accounts was one of the project's goals, it made more sense to use embedded video and music links rather than host this content locally. This way the user has the option to open this content in their YouTube or Spotify app directly, increasing the likelyhood that the user will listen to the music more as well as making the content easier to access for the user.
+
+**Contact Page**
+
+The contact form is fully functional, and will email a message directly to the artist's inbox using an API from [Web3Forms](https://web3forms.com/).
+
+![Contact Page](/assets/documentation/pages/contact.png)
+
+Once a message has been successfully sent, the form redirects them to a seperate landing page where they can go to another part of the site.
+
+![Message Sent Page](/assets/documentation/pages/message-sent.png)
+
 ### Accessibility
+
+I have worked hard to ensure the website is as easy to navigate and as accessible to disabled people as possible. To achieve this I:
+
+- Used semantic HTML elements
+- Added Aria tags to all links, buttons and content to ensure Screen Readers are able to comprehend it
+- Used a San-Serif font for site navigation, to make it as easy to read as possible
+- Used as little text as possible, to make sure the site is accessible to people who do not speak or read English
+- Ensured contrasting colors were used throughout the site to keep elements easily idenitfiable and readable.
+
+I also tested the site with the Chrome extension [Web Disability Simulator](https://chromewebstore.google.com/detail/web-disability-simulator/olioanlbgbpmdlgjnnampnnlohigkjla) to ensure the user experience was friendly to those with color blindness, parkinsons and dyslexia.
+
+**Yellow-Blue Colorblindness**
+
+![Yellow-Blue Colorblindness](/assets/documentation/pages/yellow-blue-colorblind.png)
+
+**Red-Green Colorblindness**
+
+![Red-Green Colorblindness](/assets/documentation/pages/red-green-colorblind.png)
+
 
 ## Technologies Used
 
