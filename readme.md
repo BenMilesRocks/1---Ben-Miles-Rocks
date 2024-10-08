@@ -291,9 +291,9 @@ To clone the repository:
 
 Please refer to [testing.md](/testing.md) for my manual testing logs.
 
-**Lighthouse Testing**
+**Google Developer Tools Testing**
 
-I tested my site using Lighthouse in Google Developer Tools to inspect my site's performance.
+I tested my site using Google Developer Tools to inspect my site's performance, taking note of the Lighthouse score and also any issues flagged by Developer Tools.
 
 **Index Page**
 
@@ -303,6 +303,10 @@ The best practices issues are being caused by Third Party Cookies from Google Fo
 
 ![Index Page Lighthouse issues](/assets/documentation/testing/index-lighthouse-issues.png)
 
+Developer tools also raised issues with Form Field elements not having a name or a label, but upon closer inspection this is code that applies to the embedded YouTube video player and as a result I did not take any action on this.
+
+![Index Page Dev-Tools issues](/assets/documentation/testing/index-devtools-issues.png)
+
 **Music Page**
 
 ![Music Page Lighthouse](/assets/documentation/testing/music-lighthouse.png)
@@ -311,9 +315,15 @@ The best practices issues are being caused by Third Party Cookies from Spotify. 
 
 ![Music Page Lighthouse issues](/assets/documentation/testing/music-lighthouse-issues.png)
 
+Developer Tools also flagged an issue about a Depreciated Feature being used, but again this is part of the JavaScript for the embedded Spotify player.
+
+![Music Page Dev-Tools issues](/assets/documentation/testing/music-devtools-issues.png)
+
 **Contact Page**
 
 ![Contact Page Lighthouse](/assets/documentation/testing/contact-lighthouse.png)
+
+Developer tools also recommended adding the Autocomplete attribute to the Name and Email fields on the contact form, which I updated.
 
 **Message Sent Page**
 
