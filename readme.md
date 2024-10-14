@@ -250,7 +250,7 @@ I used [Bootstrap 5](https://getbootstrap.com/) framework to make use of its res
 
 [Favicon.io](https://favicon.io/) used to create the site's Favicon.
 
-To edit my code I used Visual Studio, and I used Git for version control.
+To edit my code I used Visual Studio Code, and I used Git for version control.
 
 ## Deployment and Local Development
 
@@ -389,7 +389,7 @@ For site optimization I took a number of best practices from [web.dev](https://w
 
 - This post about [LCP](https://web.dev/articles/optimize-lcp)
 
-I took advice from [This Cookie Script article](https://cookie-script.com/blog/how-to-add-youtube-videos-without-cookies) to remove cookies from embedded YouTube videos.
+I also took advice from [This Cookie Script article](https://cookie-script.com/blog/how-to-add-youtube-videos-without-cookies) to remove cookies from embedded YouTube videos.
 
 ### Media
 
