@@ -1,5 +1,43 @@
+**Google Developer Tools Testing**
+
+I tested my site using Google Developer Tools to inspect my site's performance, taking note of the Lighthouse score and also any issues flagged by Developer Tools.
+
+**Index Page**
+
+![Index Page Lighthouse](/assets/documentation/testing/index-lighthouse.png)
+
+The best practices issues are being caused by Third Party Cookies from Google Fonts. The only resolution I could find for this would be hosting the fonts locally, but this could cause slow loading times for the site. As Google phases out the use of cookies on its site this is likely to be resolved, and so I decided not to take action at this stage.
+
+![Index Page Lighthouse issues](/assets/documentation/testing/index-lighthouse-issues.png)
+
+Developer tools also raised issues with Form Field elements not having a name or a label, but upon closer inspection this is code that applies to the embedded YouTube video player and as a result I did not take any action on this.
+
+![Index Page Dev-Tools issues](/assets/documentation/testing/index-devtools-issues.png)
+
+**Music Page**
+
+![Music Page Lighthouse](/assets/documentation/testing/music-lighthouse.png)
+
+The best practices issues are being caused by Third Party Cookies from Spotify. I was unable to find a resolution for this without removing the Spotify widget entirely. Given its utility I decided that this would not be suitable, as losing this feature would be a significant detriment to the site.
+
+![Music Page Lighthouse issues](/assets/documentation/testing/music-lighthouse-issues.png)
+
+Developer Tools also flagged an issue about a Depreciated Feature being used, but again this is part of the JavaScript for the embedded Spotify player.
+
+![Music Page Dev-Tools issues](/assets/documentation/testing/music-devtools-issues.png)
+
+**Contact Page**
+
+![Contact Page Lighthouse](/assets/documentation/testing/contact-lighthouse.png)
+
+Developer tools also recommended adding the Autocomplete attribute to the Name and Email fields on the contact form, which I updated.
+
+**Message Sent Page**
+
+![Message Sent Page Lighthouse](/assets/documentation/testing/message-sent-lighthouse.png)
+
 | **Feature** | **Expected Outcome** | **Testing Performed** | **Result** | **Pass/Fail** |
-| ----------- | -------------------- | --------------------- | ---------- | ------------- |
+| --- | --- | ---- | --- | --- |
 | **Navbar** | | | | |
 | Home Button | Redirect to index.html | Clicked Home button on index.html. music.html, contact.html & message-sent.html | Redirected to index.html | **PASS** |
 | Music Button | Redirect to music.html | Clicked Music button on index.html. music.html, contact.html & message-sent.html | Redirected to music.html | **PASS** |

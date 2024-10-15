@@ -291,72 +291,17 @@ To clone the repository:
 
 Please refer to [testing.md](/testing.md) for my manual testing logs.
 
-**Google Developer Tools Testing**
-
-I tested my site using Google Developer Tools to inspect my site's performance, taking note of the Lighthouse score and also any issues flagged by Developer Tools.
-
-**Index Page**
-
-![Index Page Lighthouse](/assets/documentation/testing/index-lighthouse.png)
-
-The best practices issues are being caused by Third Party Cookies from Google Fonts. The only resolution I could find for this would be hosting the fonts locally, but this could cause slow loading times for the site. As Google phases out the use of cookies on its site this is likely to be resolved, and so I decided not to take action at this stage.
-
-![Index Page Lighthouse issues](/assets/documentation/testing/index-lighthouse-issues.png)
-
-Developer tools also raised issues with Form Field elements not having a name or a label, but upon closer inspection this is code that applies to the embedded YouTube video player and as a result I did not take any action on this.
-
-![Index Page Dev-Tools issues](/assets/documentation/testing/index-devtools-issues.png)
-
-**Music Page**
-
-![Music Page Lighthouse](/assets/documentation/testing/music-lighthouse.png)
-
-The best practices issues are being caused by Third Party Cookies from Spotify. I was unable to find a resolution for this without removing the Spotify widget entirely. Given its utility I decided that this would not be suitable, as losing this feature would be a significant detriment to the site.
-
-![Music Page Lighthouse issues](/assets/documentation/testing/music-lighthouse-issues.png)
-
-Developer Tools also flagged an issue about a Depreciated Feature being used, but again this is part of the JavaScript for the embedded Spotify player.
-
-![Music Page Dev-Tools issues](/assets/documentation/testing/music-devtools-issues.png)
-
-**Contact Page**
-
-![Contact Page Lighthouse](/assets/documentation/testing/contact-lighthouse.png)
-
-Developer tools also recommended adding the Autocomplete attribute to the Name and Email fields on the contact form, which I updated.
-
-**Message Sent Page**
-
-![Message Sent Page Lighthouse](/assets/documentation/testing/message-sent-lighthouse.png)
-
-
 ### Code Validation
 
 **HTML Validation**
 
-I used [W3C's HTML validator](https://validator.w3.org/) to check my code, and there were a few results which I did not address intentionally:
+I used [W3C's HTML validator](https://validator.w3.org/) to check my code, and there was one result that I did not address intentionally:
 
-1. Lack of section headings on index.html and message-sent.html
-
-![index warning](/assets/documentation/testing/index-warning.png)
-
-![message-sent warning](/assets/documentation/testing/message-sent-warning.png)
-
-Whilst other sections on the site had headings attached to make navigation clear, it did not make sense for the Hero Image or the acknowledgement message to have such headings. Keeping the section tags for these areas made semantic sense as well as kept the code easy to follow, so I decided not to alter this code.
-
-2. Error for using href attributes on button elements.
+- Error for using href attributes on button elements.
 
 ![music error 1](/assets/documentation/testing/music-err-1.png)
 
-![music error 2](/assets/documentation/testing/music-err-2.png)
-
-This code is part of the Bootstrap library, which alters how button elements work and allows the href attribute.
-
-3. Width=100% on iframe element
-
-![music error 3](/assets/documentation/testing/music-err-3.png)
-
-This code is part of the Spotify widget, adding a responsive element to the widget's size. The code works correctly, and altering this would give the widget a fixed size (which goes against the responsive design of the rest of the site.)
+This code is part of the Bootstrap library, which alters how button elements work and allows the href attribute. Removing the href element would break the code and stop the buttons functioning properly. As a result I decided to leave this code as it is, as creating my own dropdown buttons would require JavaScript knowledge that falls outside the scope of this project.
 
 **CSS Validation**
 
