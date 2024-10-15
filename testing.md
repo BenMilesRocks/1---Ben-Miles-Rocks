@@ -1,3 +1,38 @@
+# Ben Miles Rocks -  Testing
+
+![The Ben Miles Rocks site shown on a variety of screen sizes](/assets/documentation/pages/home-1.png)
+
+Visit the deployed site: [Ben Miles Rocks](https://benmilesrocks.github.io/1---Ben-Miles-Rocks/index.html)
+
+- - -
+
+## CONTENTS
+
+* [AUTOMATED TESTING](#automated-testing)
+  * [W3C Validator](#w3c-validator)
+  * [Lighthouse](#lighthouse)
+* [MANUAL TESTING](#manual-testing)
+  * [Testing User Stories](#testing-user-stories)
+  * [Full Testing](#full-testing)
+
+### Code Validation
+
+**HTML Validation**
+
+I used [W3C's HTML validator](https://validator.w3.org/) to check my code, and there was one result that I did not address intentionally:
+
+- Error for using href attributes on button elements.
+
+![music error 1](/assets/documentation/testing/music-err-1.png)
+
+This code is part of the Bootstrap library, which alters how button elements work and allows the href attribute. Removing the href element would break the code and stop the buttons functioning properly. As a result I decided to leave this code as it is, as creating my own dropdown buttons would require JavaScript knowledge that falls outside the scope of this project.
+
+**CSS Validation**
+
+I used [W3C's Jigsaw Validator](https://jigsaw.w3.org/css-validator/) to test my site's CSS, which raised no issues.
+
+![CSS Validation](/assets/documentation/testing/css-validation.png)
+
 **Google Developer Tools Testing**
 
 I tested my site using Google Developer Tools to inspect my site's performance, taking note of the Lighthouse score and also any issues flagged by Developer Tools.

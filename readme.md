@@ -289,25 +289,7 @@ To clone the repository:
 
 ## Testing
 
-Please refer to [testing.md](/testing.md) for my manual testing logs.
-
-### Code Validation
-
-**HTML Validation**
-
-I used [W3C's HTML validator](https://validator.w3.org/) to check my code, and there was one result that I did not address intentionally:
-
-- Error for using href attributes on button elements.
-
-![music error 1](/assets/documentation/testing/music-err-1.png)
-
-This code is part of the Bootstrap library, which alters how button elements work and allows the href attribute. Removing the href element would break the code and stop the buttons functioning properly. As a result I decided to leave this code as it is, as creating my own dropdown buttons would require JavaScript knowledge that falls outside the scope of this project.
-
-**CSS Validation**
-
-I used [W3C's Jigsaw Validator](https://jigsaw.w3.org/css-validator/) to test my site's CSS, which raised no issues.
-
-![CSS Validation](/assets/documentation/testing/css-validation.png)
+Please refer to [testing.md](/testing.md) for all testing carried out.
 
 ### Solved Bugs
 
