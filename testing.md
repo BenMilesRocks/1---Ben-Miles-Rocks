@@ -15,13 +15,23 @@ Visit the deployed site: [Ben Miles Rocks](https://benmilesrocks.github.io/1---B
   * [Testing User Stories](#testing-user-stories)
   * [Full Testing](#full-testing)
 
+Testing was ongoing throughout the entire build. I utilised Chrome developer tools whilst building to pinpoint and troubleshoot any issues as I went along.
+
+During development I made use of Google developer tools to ensure everything was working correctly and to assist with troubleshooting when things were not working as expected.
+
+I have gone through each page using Google Chrome developer tools & Microsoft Edge inspector tool to ensure that each page is responsive on a variety of different screen sizes and devices.
+
+- - -
+
 ## AUTOMATED TESTING
+
+- - -
 
 ### W3C Validator
 
 **HTML Validation**
 
-I used [W3C's HTML validator](https://validator.w3.org/) to check my code, and there was one result that I did not address intentionally:
+I used [W3C's HTML validator](https://validator.w3.org/) to check my code, and all the pages except music.html passed without issue. There was one result that I did not address intentionally:
 
 - Error for using href attributes on button elements.
 
@@ -35,9 +45,11 @@ I used [W3C's Jigsaw Validator](https://jigsaw.w3.org/css-validator/) to test my
 
 ![CSS Validation](/assets/documentation/testing/css-validation.png)
 
+- - -
+
 ### Lighthouse
 
-I tested my site using Google Developer Tools to inspect my site's performance, taking note of the Lighthouse score and also any issues flagged by Developer Tools.
+I used Lighthouse within the Chrome Developer Tools to test the performance, accessibility, best practices and SEO of the website.
 
 **Index Page**
 
@@ -73,9 +85,41 @@ Developer tools also recommended adding the Autocomplete attribute to the Name a
 
 ![Message Sent Page Lighthouse](/assets/documentation/testing/message-sent-lighthouse.png)
 
+- - -
+
 ## MANUAL TESTING
 
+- - -
+
 ### Testing User Stories
+
+**First Time Visitors**
+
+| **Goals** | **How are they achieved?** |
+| --- | --- |
+| **I want to learn more about the artist Ben Miles**| |
+| I want easy access to videos and music | Music Videos are placed prominently on the Home page, as well as being available on the Music page |
+| I want information about live shows | Information about Live Shows is placed prominently on the Home page, making it clear when and where Ben Miles is playing next |
+| I want links to social media sites where I can see and hear more | Social Media links are placed prominently in the Footer, which is pinned to the bottom of the page at all times |
+| **I want the site to be responsive to my device**| The site was designed with responsiveness in mind, and has been tested on multiple devices to ensure functionality on all devices |
+| **I want the site to be easy to navigate**| Navigation links are placed prominently in the page header, and the structure of the site has been kept as simple as possible for ease of use |
+
+**Returning Visitors**
+
+| **Goals** | **How are they achieved?** |
+| --- | --- |
+| **I want to find out when Ben Miles is next playing a show near me**| Information about Live Shows is placed prominently on the Home page, making it clear when and where Ben Miles is playing next |
+| **I want to be able to purchase music and merchandise**| The Shop page is accessible from all points using the Navigation bar, as well as a clear call to action button on the Home page |
+| **I want to contact the artist directly**| The Contact page has a simple form for users to complete, sending an email to the artist's inbox |
+
+**Frequent Visitors**
+
+| **Goals** | **How are they achieved?** |
+| --- | --- |
+| **I want to find out when Ben Miles is next playing a show near me**| Information about Live Shows is placed prominently on the Home page, making it clear when and where Ben Miles is playing next |
+| **I want to be able to purchase music and merchandise**| The Shop page is accessible from all points using the Navigation bar, as well as a clear call to action button on the Home page |
+
+- - -
 
 ### Full Testing
 
@@ -106,3 +150,5 @@ Developer tools also recommended adding the Autocomplete attribute to the Name a
 | Contact Submit | Send message to veryloudrecords@mail.com using Web3Forms APIm redirect to message-sent.html | Sent message using Contact Form, clicked submit | Redirected to message-sent.html, mesage recieved by veryloudrecords@mail.com | **PASS** |   
 | **Message Sent Page** | | | | |
 | Home Button | Redirect to index.html | Clicked Home button | Redirected to index.html | **PASS** |
+
+- - -
