@@ -123,6 +123,27 @@ Developer tools also recommended adding the Autocomplete attribute to the Name a
 
 ### Full Testing
 
+Full testing was performed on the following devices:
+
+Desktop:
+<ul><li>HP Envy All-in-one 32-a10</li></ul>
+
+Mobile Devices:
+
+<ul>
+<li>Samsung Galaxy S20 FE</li>
+<li>Samsung A20</li>
+</ul>
+
+
+Each device tested the site using the following browsers:
+
+Google Chrome
+Microsoft Edge
+Firefox
+Additional testing was taken by friends and family on a variety of devices and screen sizes. They reported no issues when using the site.
+
+
 | **Feature** | **Expected Outcome** | **Testing Performed** | **Result** | **Pass/Fail** |
 | --- | --- | ---- | --- | --- |
 | **Navbar** | | | | |
