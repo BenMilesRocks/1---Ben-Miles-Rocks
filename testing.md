@@ -25,8 +25,6 @@ I have gone through each page using Google Chrome developer tools & Microsoft Ed
 
 ## AUTOMATED TESTING
 
-- - -
-
 ### W3C Validator
 
 **HTML Validation**
@@ -88,8 +86,6 @@ Developer tools also recommended adding the Autocomplete attribute to the Name a
 - - -
 
 ## MANUAL TESTING
-
-- - -
 
 ### Testing User Stories
 
