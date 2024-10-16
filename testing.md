@@ -94,9 +94,9 @@ Developer tools also recommended adding the Autocomplete attribute to the Name a
 | **Goals** | **How are they achieved?** |
 | --- | --- |
 | **I want to learn more about the artist Ben Miles**| *See below* |
-| *I want easy access to videos and music* | *Music Videos are placed prominently on the Home page, as well as being available on the Music page* |
-| *I want information about live shows* | *Information about Live Shows is placed prominently on the Home page, making it clear when and where Ben Miles is playing next* |
-| *I want links to social media sites where I can see and hear more* | *Social Media links are placed prominently in the Footer, which is pinned to the bottom of the page at all times* |
+| *I want easy access to videos and music* | Music Videos are placed prominently on the Home page, as well as being available on the Music page |
+| *I want information about live shows* | Information about Live Shows is placed prominently on the Home page, making it clear when and where Ben Miles is playing next |
+| *I want links to social media sites where I can see and hear more* | Social Media links are placed prominently in the Footer, which is pinned to the bottom of the page at all times |
 | **I want the site to be responsive to my device**| The site was designed with responsiveness in mind, and has been tested on multiple devices to ensure functionality on all devices |
 | **I want the site to be easy to navigate**| Navigation links are placed prominently in the page header, and the structure of the site has been kept as simple as possible for ease of use |
 
