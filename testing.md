@@ -93,10 +93,10 @@ Developer tools also recommended adding the Autocomplete attribute to the Name a
 
 | **Goals** | **How are they achieved?** |
 | --- | --- |
-| **I want to learn more about the artist Ben Miles**| |
-| I want easy access to videos and music | Music Videos are placed prominently on the Home page, as well as being available on the Music page |
-| I want information about live shows | Information about Live Shows is placed prominently on the Home page, making it clear when and where Ben Miles is playing next |
-| I want links to social media sites where I can see and hear more | Social Media links are placed prominently in the Footer, which is pinned to the bottom of the page at all times |
+| **I want to learn more about the artist Ben Miles**| *See below* |
+| *I want easy access to videos and music* | *Music Videos are placed prominently on the Home page, as well as being available on the Music page* |
+| *I want information about live shows* | *Information about Live Shows is placed prominently on the Home page, making it clear when and where Ben Miles is playing next* |
+| *I want links to social media sites where I can see and hear more* | *Social Media links are placed prominently in the Footer, which is pinned to the bottom of the page at all times* |
 | **I want the site to be responsive to my device**| The site was designed with responsiveness in mind, and has been tested on multiple devices to ensure functionality on all devices |
 | **I want the site to be easy to navigate**| Navigation links are placed prominently in the page header, and the structure of the site has been kept as simple as possible for ease of use |
 
@@ -160,7 +160,7 @@ Additional testing was taken by friends and family on a variety of devices and s
 | Responsive Elements | Medium screens should display two videos inline, remove border from hero image. Small screens should display two videos in blocks | Shrank screen size to 768px & 576px | At 768px hero image border removed, displayed 2 videos inline. At 576px displayed 2 videos in blocks. | **PASS** |
 | **Music Page** | | | | |
 | Embedded Videos | Play video content | Clicked Play button on the four embedded videos | Video played from YouTube as expected | **PASS** |
-| Embedded Spotify Music | Play Music from Spotify, redirect to Spotify page with relevant links | Clicked: <ul><li>Play button</li> <li>Skip forward button</li><li>skip back button</li> <li>'Open in Spotify'</li> <li>'Save on Spotify'</li></ul> links. | Music played as expected, tracks skipped forward and back as expected. Links to Spotify opened artist page on Spotify. | **PASS** |
+| Embedded Spotify Music | Play Music from Spotify, redirect to Spotify page with relevant links | Clicked: <ul><li>Play button</li> <li>Skip forward button</li><li>skip back button</li> <li>'Open in Spotify'</li> <li>'Save on Spotify'</li></ul> | Music played as expected, tracks skipped forward and back as expected. Links to Spotify opened artist page on Spotify. | **PASS** |
 | Responsive Elements | Videos collapse on small screens, collapse buttons next to Videos and Music headers expand content | Shrank to small screen size, clicked collapse buttons next to Videos and Music headers & pressed space bar. | Content collapsed as expected. Buttons expanded and collapsed content correctly. | **PASS** |
 | **Contact Page** | | | | |
 | Contact Form | Should not submit unless all fields are completed | Tried submitting empty form, Name only, Email only, Message only, Name & Email, Name & Message, Email & Message | Would not submit | **PASS** |
