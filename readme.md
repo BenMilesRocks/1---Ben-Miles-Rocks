@@ -1,6 +1,6 @@
 # Ben Miles Rocks
 
-
+![Home Page](/assets/documentation/pages/home-1.png)
 
 ## Project Goals
 
@@ -44,7 +44,7 @@ Finally, there is a strong drive to make this website easy to use on mobile devi
     - [Acknowledgements](#acknowledgements)
 
 
-## User Experience (UX)
+## User Experience
 
 
 ### User Stories
@@ -300,7 +300,7 @@ Please refer to [testing.md](/testing.md) for all testing carried out.
 
 ### Known Bugs
 
-Whilst I was able to resolve the issue of whitespace validation on the Name field of the contact form, there is no way to apply this to the <textarea> element using HTML. As a result the form will still accept whitespace as a message. 
+Whilst I was able to resolve the issue of whitespace validation on the Name field of the contact form, there is no way to apply this to the `<textarea>` element using HTML. As a result the form will still accept whitespace as a message. 
 
 ## Credits
 

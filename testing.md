@@ -15,7 +15,7 @@ Visit the deployed site: [Ben Miles Rocks](https://benmilesrocks.github.io/1---B
   * [Testing User Stories](#testing-user-stories)
   * [Full Testing](#full-testing)
 
-### Code Validation
+## AUTOMATED TESTING
 
 **HTML Validation**
 
