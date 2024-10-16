@@ -17,6 +17,8 @@ Visit the deployed site: [Ben Miles Rocks](https://benmilesrocks.github.io/1---B
 
 ## AUTOMATED TESTING
 
+### W3C Validator
+
 **HTML Validation**
 
 I used [W3C's HTML validator](https://validator.w3.org/) to check my code, and there was one result that I did not address intentionally:
@@ -33,7 +35,7 @@ I used [W3C's Jigsaw Validator](https://jigsaw.w3.org/css-validator/) to test my
 
 ![CSS Validation](/assets/documentation/testing/css-validation.png)
 
-**Google Developer Tools Testing**
+### Lighthouse
 
 I tested my site using Google Developer Tools to inspect my site's performance, taking note of the Lighthouse score and also any issues flagged by Developer Tools.
 
@@ -70,6 +72,12 @@ Developer tools also recommended adding the Autocomplete attribute to the Name a
 **Message Sent Page**
 
 ![Message Sent Page Lighthouse](/assets/documentation/testing/message-sent-lighthouse.png)
+
+## MANUAL TESTING
+
+### Testing User Stories
+
+### Full Testing
 
 | **Feature** | **Expected Outcome** | **Testing Performed** | **Result** | **Pass/Fail** |
 | --- | --- | ---- | --- | --- |
