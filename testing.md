@@ -134,9 +134,10 @@ Mobile Devices:
 
 Each device tested the site using the following browsers:
 
-Google Chrome
-Microsoft Edge
-Firefox
+* Google Chrome
+* Microsoft Edge
+* Firefox
+
 Additional testing was taken by friends and family on a variety of devices and screen sizes. They reported no issues when using the site.
 
 
